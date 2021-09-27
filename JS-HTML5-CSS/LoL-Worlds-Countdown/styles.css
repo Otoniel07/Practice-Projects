@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body { 
+    background-image: url(./images/LoL-Worlds-2021.webp);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Urbanist;
+    color: white;
+    margin: 0;
+}
+
+.spacing {
+    margin: 0 8em;
+}
+
+.countdown-container {
+    display: flex;
+}
+
+.big-text {
+    font-size: 6em;
+    line-height: 1;
+    margin: 0 1rem;
+}
+
+.label {
+    margin: 0rem;
+    font-size: 6em;
+}
+
+.countdown span{
+    font-size: 2em;
+}
+
+.countdown {
+    margin-left: 4em;
+}
