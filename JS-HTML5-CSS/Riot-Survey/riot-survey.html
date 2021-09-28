@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Title</title>
+	<link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+	<header>
+		<h1 id="title">Riot Games Survey</h1>
+		<p id="description">Thank you for taking the time to help us improve!</p>
+	</header>
+	<div class="container">
+		<form id="survey-form">
+			<div class="form-section">
+				<label id="name-label" for="name">IGN</label>
+				<input id="name" class="section" type="text" placeholder="Please enter your IGN" required>
+			</div>
+			<div class="form-section">
+				<label id="email-label" for="email">Email</label>
+				<input id="email" class="section" type="email" placeholder="Please enter your email" required>
+			</div>
+			<div class="form-section">
+				<label id="number-label" for="number-label">Age</label>
+				<input id="number" type="number" min="13" max="200" placeholder="Age">
+			</div>
+			<div class="form-section">
+				<p>Which of the following are you currently playing?</p>
+				<select id="dropdown" name="improvements" required>
+					<option disabled selected value>Please select from the following</option>
+					<option value="lol">League of Legends</option>
+					<option value="wr">Wild Rift</option>
+					<option value="lor">Legends of Runeterra</option>
+					<option value="tft">Teamfight Tactics</option>
+					<option value="val">Valorant</option>
+				</select>
+			</div>
+			<div class="form-section">
+				<p>Are you enjoying your experience?</p>
+				<label>
+					<input name="attribute" type="radio" value="absolutely">Absolutely!</input>
+				</label>
+				<label>
+					<input name="attribute" type="radio" value="kind-of">Kind of.</input>
+				</label>
+				<label>
+					<input name="attribute" type="radio" value="not-really">Not really.</input>
+				</label>
+				<label>
+					<input name="attribute" type="radio" value="terrible">Terrible!</input>
+				</label>
+			</div>
+			<div class="form-section">
+				<p>Tell us why you feel this way.</p>
+				<textarea id="reason" name="reason" placeholder="Enter your reason here."></textarea>
+			</div>
+			<div class="form-section">
+				<p>Which of the following could we improve on?</p>
+				<label>
+					<input type="checkbox" value="client">Client</input>
+				</label>
+				<label>
+					<input type="checkbox" value="shop">Shop</input>
+				</label>
+				<label>
+					<input type="checkbox" value="character-selection">Champion/Agent Selection</input>
+				</label>
+				<label>
+					<input type="checkbox" value="game">Gameplay</input>
+				</label>
+				<label>
+					<input type="checkbox" value="post-game-lobby">Post-game Lobby</input>
+				</label>
+			</div>
+			<div class="form-section">
+				<p>Do you have any additional comments or suggestions?</p>
+				<textarea id="comments" name="comments" placeholder="Enter your comments or suggestions here."></textarea>
+			</div>
+			<div class="=form-section">
+				<button id="submit" type="submit">Submit</button>
+			</div>
+		</form>
+	</div>
+</body>
+
+</html>
