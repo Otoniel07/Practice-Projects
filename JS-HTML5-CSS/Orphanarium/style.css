@@ -1,0 +1,152 @@
+@media screen and (min-width: 720px) {
+    #email {width: 200px}
+}
+
+body { 
+    font-family: Arial;
+    margin: 0;
+    position: relative;
+    background-color: aqua;
+}
+
+#header-container {
+    padding-bottom: 10vw;
+}
+
+header {
+    position: fixed;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    background-color: aquamarine;
+    width: 100%;
+}
+
+#nav-bar {
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    float: right;
+    margin-top: 10px;
+}
+
+#link-list {
+    list-style: none;
+}
+
+li {
+    display: inline;
+    padding-right: 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-link {
+    text-align: center;
+    font-weight: 800;
+}
+
+.nav-link:hover {
+    cursor: pointer;
+    color: gold;
+}
+.logo {
+    max-width: 60vw;
+}
+
+#header-img {
+    max-width: 100px;
+    float: left;
+    padding: 5px 0 5px 20px;
+}
+
+.container {
+    max-width: 720px;
+    margin: 0 auto;
+    background: rgba(138, 236, 176, 0.85);
+    border-radius: 25px;
+    padding: 25px 25px 25px 25px;
+}
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 160px;
+    width: 600px;
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color: beige;
+}
+
+#intro > h2 {
+    margin-bottom: 0px;
+    word-wrap: break-word;
+    font-size: 4em;
+    font-family: Georgia;
+    color: brown;
+}
+
+#intro > p {
+    word-wrap: break-word;
+    font-family: Georgia;
+    font-size: 1.5em;
+}
+
+#cookieville-image {
+    width: 400px;
+    margin: 20px 23% 40px;
+}
+
+#mission {
+    width: 650px;
+    margin: 0 auto;
+    background-color: rgb(133, 213, 216);
+    border-radius: 15px;
+    padding: 10px 20px 20px 20px;
+    align-items: center;
+}
+
+#vid-desc {
+    font-size: small;
+}
+
+#mission > iframe {
+    max-width: 560px;
+    width: 100%;
+    margin: 0 5%;
+}
+
+h3 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.special {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#specials-list {
+    list-style-type: circle;
+}
+
+#email {
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    height: 30px;
+    text-align: center;
+}
+
+#submit {
+    height: 30px;
+    width: 100px;
+    display: block;
+    margin: 10px auto;
+}
